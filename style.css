@@ -50,3 +50,17 @@ p{
     font-size: 44px;
     text-align: center;
 }
+input[type="search"]{
+    color: white;
+    background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(87, 86, 86);
+}
+button{
+    padding: 3px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(87, 86, 86);
+
+}
