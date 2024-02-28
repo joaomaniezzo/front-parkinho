@@ -39,7 +39,9 @@ body{
 
 input[type="text"]{
     font-size: 44px;
-    width: 200px;
+    width: 270px;
+    text-align: center;
+
 }
 input[type="submit"]{
     background-color: green;
