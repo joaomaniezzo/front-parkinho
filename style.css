@@ -12,7 +12,7 @@ body{
     
 }
 .container{
-    background-color:rgb(34, 34, 34);
+    
     width: 1000px;
     height: 1200px;
     padding: 10px;
@@ -66,9 +66,19 @@ input[type="search"]{
     border-color: rgb(87, 86, 86);
 }
 button{
-    padding: 3px;
+    padding: 20px;
     cursor: pointer;
     color: white;
     background-color: rgb(87, 86, 86);
+    margin-left: 10px;
+    font-size: 25px;
+    position: relative;
 
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
