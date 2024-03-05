@@ -41,12 +41,19 @@
             <div id="historico">
                 <div class="title-div">
                     <h1>Histórico</h1>
+                    <p>Consulte o histórico de movimento do estacionamento</p>
                 </div>
             </div>
 
             <div id="mensalista" style="text-align: center;">
                 <div class="title">
                     <h1>Mensalistas</h1>
+                    <p>Consulte e cadastre mensalistas</p>
+                    <form action="">
+                        <input type="text" id="myInput" oninput="formatInput(this)" maxlength="8" placeholder="Placa">
+                        <input type="text" id="inputName" oninput="upperCase(this)" placeholder="Nome"><br>
+                        <input style="font-size: 25px; width: 200px;" type="submit" value="Cadastrar">
+                    </form>
                 </div>
             </div>
 
