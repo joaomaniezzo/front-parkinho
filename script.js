@@ -10,4 +10,8 @@ function formatInput(input) {
       input.value = input.value.substring(0, 3) + '-' + input.value.substring(3);
     }
   }
+
+  function upperCase(input) {
+    input.value = input.value.toUpperCase();
+  }
   

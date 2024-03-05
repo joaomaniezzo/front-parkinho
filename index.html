@@ -19,7 +19,7 @@
             <div class="form-div">
                 <form style="display: flex;width: 100%; justify-content: space-around;" action="">
                     <input type="text" id="myInput" oninput="formatInput(this)" maxlength="8" placeholder="Placa">
-                    <input type="text" placeholder="Modelo">
+                    <input type="text" oninput="upperCase(this)" maxlength="12" placeholder="Modelo">
                     <input style="margin: 0;" type="submit" value="OK">
                 </form>
             </div>
